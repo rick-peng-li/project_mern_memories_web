@@ -1,0 +1,21 @@
+{
+  "name": "mern-memories-server",
+  "version": "1.1.0",
+  "description": "Backend API for the MERN Memories application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
